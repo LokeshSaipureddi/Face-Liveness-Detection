@@ -187,9 +187,9 @@ while True:
 				  (0, 0, 255), 2)
  #showing the frames and waiting for the key to be pressed
 cv2.imshow("Frame", frame)
-    key = cv2.waitKey(1) & 0xFF
-    if key == ord("q"):
-        break
+key = cv2.waitKey(1) & 0xFF
+if key == ord("q"):
+	break
 cv2.destroyAllWindows()
 #vs.stop()
 
